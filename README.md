@@ -49,7 +49,7 @@ The heuristic evaluation was conducted by systematically analyzing the mockups  
 The heuristic evaluation revealed several key usability issues:
 1.	Visibility of System Status:
   -	Lack of feedback for critical actions like adding or updating expenses.
-3.	User Control and Freedom:
+2.	User Control and Freedom:
   -	No "Undo" functionality or ability to revert changes.
   -	Missing confirmation steps for potentially destructive actions like deleting expenses.
 3.	Error Prevention:
