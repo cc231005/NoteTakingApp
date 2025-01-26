@@ -36,32 +36,6 @@ In the beginning together with Besart we've planned the initial concept of the e
 
 ## Initial Usability Test Plan
 
-### Heuristic Evaluation
-
-#### How was the heuristic evaluation performed?
-The heuristic evaluation was conducted by systematically analyzing the mockups  of the FairShare app using Nielsen’s 10 Usability Heuristics. Each heuristic was used as a framework to identify usability issues in the interface and functionality, with a focus on the following steps:
-1.	Systematic Inspection: Each screen and interaction in the mockups was evaluated to identify potential usability problems.
-2.	Issue Identification: Problems such as lack of feedback, unclear actions, and missing features (e.g., error prevention mechanisms) were recorded for each heuristic.
-3.	Severity Ratings: Each identified issue was assigned a severity level (Low, Medium, High) based on its impact on the user experience and the likelihood of occurrence.
-
-
-#### What are the main results?
-The heuristic evaluation revealed several key usability issues:
-1.	Visibility of System Status:
-    -	Lack of feedback for critical actions like adding or updating expenses.
-2.	User Control and Freedom:
-    -	No "Undo" functionality or ability to revert changes.
-    -	Missing confirmation steps for potentially destructive actions like deleting expenses.
-3.	Error Prevention:
-    -	Lack of input validation for fields like expense amounts.
-4.	Help Users Recognize, Diagnose, and Recover from Errors:
-    -	No error messages to guide users when they leave required fields empty or enter invalid data.
-5.	Help and Documentation:
-    -	No onboarding or help features to explain key functionalities.
-
-
-
-
 ### Usability Test Design
 
 #### Target User:
@@ -104,3 +78,64 @@ The collected data will be analyzed as follows:
 ### Test Protocol
 
 In the beginning we ask from the participants their permission to record their screens while doing the tasks. After they agree we tell them the tasks that they’re going to do. At the end when they finish all their tasks we ask them to answer the interview questions and to fill in SUS questionnaire.
+
+
+## Changed Usability Test Plan
+
+### Usability Test Design
+
+#### Target User:
+The target audience includes individuals aged 20–30, such as:
+- Students needing to manage class notes.
+- Professionals organizing to-do lists and work-related information.
+- General users who prefer simple note-taking.
+
+#### Goals with the System:
+Users aim to:
+1.	Create, update, and delete notes with ease.
+2.	Attach relevant images to notes.
+3.	Search for notes quickly and accurately.
+4.	Enjoy an intuitive and fast interface for basic CRUD operations.
+
+
+#### Experimental Questions:
+1.	How efficiently can users create and update notes?
+2.	Are users able to attach images and search for notes without confusion?
+3.	Can users delete notes without errors?
+4.	How satisfied are users with the app interface, particularly its usability and clarity?
+
+   
+#### Variables:
+- Independent Variables: Age.
+- Dependent Variables:
+    - Time to complete key tasks (e.g., creating a note, attaching an image, searching).
+    - User satisfaction scores (via post-task questionnaires).
+ 
+
+#### Methods for Data Collection
+1.	Task Performance Metrics: Measure time taken to complete key tasks.
+2.	Post-Task Questionnaire: Use a Likert scale to assess user satisfaction after completing tasks.
+3.	Interviews: Conduct follow-up interviews to gain qualitative insights into users’ experiences and preferences.
+
+
+#### Description of How the Data Will Be Used
+- Quantitative Analysis: Task performance metrics will help evaluate the efficiency of key tasks.
+- Qualitative Analysis: Post-task questionnaire responses and interviews will provide insights into user satisfaction, highlighting areas for improvement.
+
+
+### Test Protocol
+1.	Participants will be asked for permission to record their screens.
+2.	Participants will be guided through the following tasks:
+    1.	Create a new note with Title - “Grocery” and Content - “Apples”.
+    2.	Edit an existing note by changing/adding an image.
+    3.	Search the query “device” in the search bar.
+3.	After completing the tasks, participants will fill out a SUS questionnaire and answer interview questions.
+
+
+
+
+
+
+
+
+
