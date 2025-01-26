@@ -48,16 +48,16 @@ The heuristic evaluation was conducted by systematically analyzing the mockups  
 #### What are the main results?
 The heuristic evaluation revealed several key usability issues:
 1.	Visibility of System Status:
-  *	Lack of feedback for critical actions like adding or updating expenses.
-2.	User Control and Freedom:
-  *	No "Undo" functionality or ability to revert changes.
-  *	Missing confirmation steps for potentially destructive actions like deleting expenses.
+  -	Lack of feedback for critical actions like adding or updating expenses.
+3.	User Control and Freedom:
+  -	No "Undo" functionality or ability to revert changes.
+  -	Missing confirmation steps for potentially destructive actions like deleting expenses.
 3.	Error Prevention:
-  *	Lack of input validation for fields like expense amounts.
+  -	Lack of input validation for fields like expense amounts.
 4.	Help Users Recognize, Diagnose, and Recover from Errors:
-  *	No error messages to guide users when they leave required fields empty or enter invalid data.
+  -	No error messages to guide users when they leave required fields empty or enter invalid data.
 5.	Help and Documentation:
-  *	No onboarding or help features to explain key functionalities.
+  -	No onboarding or help features to explain key functionalities.
 
 
 
@@ -86,8 +86,8 @@ Users aim to:
 #### Variables:
 -	Independent Variables: User familiarity with finance/expense-sharing apps.
 -	Dependent Variables:
-  * Time to complete key tasks (e.g., adding an expense, marking  transactions as settled).
-  * User satisfaction scores (via post-task questionnaires).
+  - Time to complete key tasks (e.g., adding an expense, marking  transactions as settled).
+  - User satisfaction scores (via post-task questionnaires).
 
 
 #### Methods for Data Collection
