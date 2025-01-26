@@ -23,9 +23,92 @@ Initially we had a plan to create a database with the following design(We create
 # Comment from team members
 
 ## Sergey Arustamyan
-In the beginning together with Besart we've planned the initial concept of the expense splitting app and I've sketched out mockups with user flow for it. Then since I wasn't so good at Android Coding in the beginning of CCL3 I was doing the android course and also preparing the usability test plan. While I was creating the usability test plan it was Besart who was warking on code and he was mainly working on UI. Then after Besart started to work with databases issues with gradle started to appear which I tried to resolve together with tutor. We managed to reslove the issues with gradle but there were still issues left related to libraries that were related to database. Since it was last day we could get a help of tutors and not manage to create the app we've planned before on our own until the deadline we've finally decided to create a note taking app instead which was much simpler to do. Since I've had experience of creating similar apps for the assignments of Mobile Coding class I've managed to create a note taking app until presentation and used apps that I've created before as a reference which helped me to do it so quickly. 
+In the beginning together with Besart we've planned the initial concept of the expense splitting app and I've sketched out mockups with user flow for it. Then since I wasn't so good at Android Coding in the beginning of CCL3 I was doing the android course and also preparing the usability test plan. While I was creating the usability test plan it was Besart who was working on code and he was mainly working on UI. Then after Besart started to work with databases issues with gradle started to appear which I tried to resolve together with tutor. We managed to reslove the issues with gradle but there were still issues left related to libraries that were related to database. Since it was last day we could get a help of tutors and there was a chance that we're not going to manage to create the app we've planned before on our own until the deadline we've finally decided to create a note taking app instead which was much simpler to do. Since I've had experience of creating similar apps for the assignments of Mobile Coding class I've managed to create a note taking app until presentation and used apps that I've created before as a reference which helped me to do it so quickly. The note taking app has basic CRUD functionality and as extra features it has a capability to attach images to the notes and also a capability to search notes.
 
-### Screenshots of final app
+### Screenshots of final note taking app
 ![photo_2025-01-24_03-58-18](https://github.com/user-attachments/assets/36141df7-d26a-4d25-8243-4041f7122015)
 ![photo_2025-01-24_03-58-15](https://github.com/user-attachments/assets/bc904b61-62e8-4f70-a845-fde614a1683d)
 ![photo_2025-01-24_03-58-20](https://github.com/user-attachments/assets/d7d48dab-eaf5-444a-9e06-7291678bb5c4)
+
+
+
+# Usability Test
+
+## Initial Usability Test Plan
+
+Heuristic Evaluation
+
+How was the heuristic evaluation performed?
+The heuristic evaluation was conducted by systematically analyzing the mockups  of the FairShare app using Nielsen’s 10 Usability Heuristics. Each heuristic was used as a framework to identify usability issues in the interface and functionality, with a focus on the following steps:
+1.	Systematic Inspection: Each screen and interaction in the mockups was evaluated to identify potential usability problems.
+2.	Issue Identification: Problems such as lack of feedback, unclear actions, and missing features (e.g., error prevention mechanisms) were recorded for each heuristic.
+3.	Severity Ratings: Each identified issue was assigned a severity level (Low, Medium, High) based on its impact on the user experience and the likelihood of occurrence.
+
+
+What are the main results?
+The heuristic evaluation revealed several key usability issues:
+1.	Visibility of System Status:
+o	Lack of feedback for critical actions like adding or updating expenses.
+2.	User Control and Freedom:
+o	No "Undo" functionality or ability to revert changes.
+o	Missing confirmation steps for potentially destructive actions like deleting expenses.
+3.	Error Prevention:
+o	Lack of input validation for fields like expense amounts.
+4.	Help Users Recognize, Diagnose, and Recover from Errors:
+o	No error messages to guide users when they leave required fields empty or enter invalid data.
+5.	Help and Documentation:
+o	No onboarding or help features to explain key functionalities.
+
+
+Heuristic	Issue	Severity
+Visibility of System Status	Missing confirmation messages	Medium
+User Control and Freedom	No "Undo" or confirmation for deletions	High
+Error Prevention	No input validation for negative/invalid amounts	High
+Help Users Recover from Errors	Missing error messages for invalid inputs	High
+Help and Documentation	No onboarding or feature explanations	Medium
+
+
+
+
+Usability Test Design
+
+Target User:
+The target audience includes young adults (20–40 years old) such as:
+•	Frequent travelers who need to split travel costs.
+•	Event organizers managing group expenses.
+•	Families and roommates sharing household costs.
+Goals with the System:
+Users aim to:
+1.	Create and manage trips/events to organize shared expenses.
+2.	Add and track expenses with detailed records (e.g., who paid, amounts, date).
+3.	Understand their balances and settle debts with minimal transactions.
+4.	Keep the process simple, fast, and accurate.
+
+
+
+Experimental Questions:
+1.	How efficiently can users create trips, add participants, and set up expense-sharing events?
+2.	Are users able to add and modify expenses without confusion or errors?
+3.	Can users understand and use the "transactions" feature to settle debts effectively?
+4.	How satisfied are users with the app interface, particularly its usability and clarity?
+Variables:
+•	Independent Variables: User familiarity with finance/expense-sharing apps.
+•	Dependent Variables:
+o	Time to complete key tasks (e.g., adding an expense, marking  transactions as settled).
+o	User satisfaction scores (via post-task questionnaires).
+
+
+Methods for Data Collection
+1. Task Performance Metrics: Collect time on task
+2. Post-Task Questionnaire: Use a Likert scale to assess user satisfaction after completing each task.
+3. Interviews: Conduct follow-up interviews to gain qualitative insights into the users’ experiences and preferences.
+
+Description of How the Data Will Be Used to Answer the Questions
+The collected data will be analyzed as follows:
+- Quantitative Analysis: Task performance metrics will be analyzed to determine the time, efficiency. 
+- Qualitative Analysis: Responses from the post-task questionnaire and interviews will provide insights into user satisfaction and any issues they encountered. The qualitative feedback will help interpret the quantitative results and highlight areas for improvement.
+
+
+Test Protocol
+
+In the beginning we ask from the participants their permission to record their screens while doing the tasks. After they agree we tell them the tasks that they’re going to do. At the end when they finish all their tasks we ask them to answer the interview questions and to fill in SUS questionnaire.
