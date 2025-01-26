@@ -56,6 +56,8 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import at.ac.fhstp.notesapp.data.Note
 import coil.compose.rememberAsyncImagePainter
+import androidx.compose.ui.platform.LocalFocusManager
+
 
 enum class Routes(val route: String) {
     Main("main"),
@@ -93,6 +95,8 @@ fun NotesListView(
     notesViewModel: NotesViewModel = viewModel(factory = AppViewModelProvider.Factory)
 ) {
 
+    val focusManager = LocalFocusManager.current
+
     LaunchedEffect(Unit) {
         notesViewModel.updateSearchQuery("")
     }
@@ -115,6 +119,7 @@ fun NotesListView(
                 modifier = Modifier
                     .padding(paddingValues)
                     .fillMaxSize()
+                    .clickable { focusManager.clearFocus() }
             ) {
                 CustomOutlinedTextField(
                     value = searchQuery,
@@ -205,6 +210,9 @@ fun AddEditNoteView(
     onSaveNote: () -> Unit,
     notesViewModel: NotesViewModel = viewModel(factory = AppViewModelProvider.Factory)
 ) {
+    val focusManager = LocalFocusManager.current
+
+
     var title by remember { mutableStateOf("") }
     var content by remember { mutableStateOf("") }
     var imageUri by remember { mutableStateOf<String?>(null) }
@@ -234,6 +242,7 @@ fun AddEditNoteView(
         modifier = Modifier
             .padding(WindowInsets.statusBars.asPaddingValues())
             .padding(16.dp)
+            .clickable { focusManager.clearFocus() }
     ) {
         CustomOutlinedTextField(
             value = title,
