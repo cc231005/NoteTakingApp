@@ -148,20 +148,20 @@ Age
 ## Task Completion Time (TCT)
 
 Statistics for Task 1 CT :
-- Minimum: 15 
-- Maximum: 30 
+- Min: 15 
+- Max: 30 
 - Mean: 21.8 
 - Standard Deviation: 6.06
 
 Statistics for Task2 CT :
-- Minimum: 11 
-- Maximum: 23 
+- Min: 11 
+- Max: 23 
 - Mean: 14.2 
-Standard Deviation: 4.97 
+- Standard Deviation: 4.97 
 
 Statistics for Task3 CT :
-- Minimum: 7 
-- Maximum: 20 
+- Min: 7 
+- Max: 20 
 - Mean: 11 
 - Standard Deviation: 5.2
 
@@ -171,4 +171,13 @@ Statistics for Task3 CT :
 
 
 
+## System Usability Scale (SUS)
 
+SUS Statistics:
+- Min: 77.5
+- Max: 90
+- Mean: 85.14
+- Standard Deviation: 5.72
+
+
+![Boxplot of SUS Scores](https://github.com/user-attachments/assets/67e947c0-f79e-4185-b108-5fa4eb9022d1)
