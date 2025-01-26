@@ -48,16 +48,16 @@ The heuristic evaluation was conducted by systematically analyzing the mockups  
 #### What are the main results?
 The heuristic evaluation revealed several key usability issues:
 1.	Visibility of System Status:
-  o	Lack of feedback for critical actions like adding or updating expenses.
+  -	Lack of feedback for critical actions like adding or updating expenses.
 2.	User Control and Freedom:
-  o	No "Undo" functionality or ability to revert changes.
-  o	Missing confirmation steps for potentially destructive actions like deleting expenses.
+  -	No "Undo" functionality or ability to revert changes.
+  -	Missing confirmation steps for potentially destructive actions like deleting expenses.
 3.	Error Prevention:
-  o	Lack of input validation for fields like expense amounts.
+  -	Lack of input validation for fields like expense amounts.
 4.	Help Users Recognize, Diagnose, and Recover from Errors:
-  o	No error messages to guide users when they leave required fields empty or enter invalid data.
+  -	No error messages to guide users when they leave required fields empty or enter invalid data.
 5.	Help and Documentation:
-  o	No onboarding or help features to explain key functionalities.
+  -	No onboarding or help features to explain key functionalities.
 
 
 
@@ -66,9 +66,9 @@ The heuristic evaluation revealed several key usability issues:
 
 #### Target User:
 The target audience includes young adults (20–40 years old) such as:
-•	Frequent travelers who need to split travel costs.
-•	Event organizers managing group expenses.
-•	Families and roommates sharing household costs.
+-	Frequent travelers who need to split travel costs.
+-	Event organizers managing group expenses.
+-	Families and roommates sharing household costs.
 
 #### Goals with the System:
 Users aim to:
@@ -84,10 +84,10 @@ Users aim to:
 4.	How satisfied are users with the app interface, particularly its usability and clarity?
    
 #### Variables:
-•	Independent Variables: User familiarity with finance/expense-sharing apps.
-•	Dependent Variables:
--- o	Time to complete key tasks (e.g., adding an expense, marking  transactions as settled).
--- o	User satisfaction scores (via post-task questionnaires).
+-	Independent Variables: User familiarity with finance/expense-sharing apps.
+-	Dependent Variables:
+  - o	Time to complete key tasks (e.g., adding an expense, marking  transactions as settled).
+  - o	User satisfaction scores (via post-task questionnaires).
 
 
 #### Methods for Data Collection
