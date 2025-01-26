@@ -99,7 +99,7 @@ Users aim to:
 
 
 #### Experimental Questions:
-1.	How efficiently can users create and update notes?
+1.	Are users able to efficiently create and update notes?
 2.	Are users able to attach images and search for notes without confusion?
 3.	Can users delete notes without errors?
 4.	How satisfied are users with the app interface, particularly its usability and clarity?
@@ -189,3 +189,22 @@ SUS Statistics:
 
 ## TCT by Age
 ![Scatterplot of Task Completion Time by Age](https://github.com/user-attachments/assets/891764ce-d1f7-4a46-a633-a22412d63071)
+
+
+## Feedback from participants
+- Very straightforward and easy to understand. Has one simple purpose.
+- Very simple and easy
+- Due to its simplicity, I had no difficulties with navigation.
+
+## We made updates because of the following feedback
+Question: Were there any moments where you felt frustrated or stuck while using the platform?
+Answer: The lack of FocusManager. When I type something, I expect the keyboard to go away when I tap somewhere else on the screen.
+
+This feedback was very helpful because it allowed us to add so basic functionality that we forgot to add on our own but thanks to the feedback we fixed that usability issue.
+
+[Download Old Version Where There Is No FocusManager](https://github.com/cc231005/NoteTakingApp/blob/main/app/old_release/app-release.apk)
+
+You can download the updated version of the app with FocusManager at the top of this documentation.
+
+## Conclusion
+Usability tests showed that app is straightforward and intuitive which leads to taks being completed very quickly. Users can navigate in the app easilty because for most people it's already familiar app and they know the placement and functionalities that that kind of apps are capable of.
