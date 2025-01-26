@@ -145,6 +145,28 @@ Age
 ![Boxplot of Participant Age](https://github.com/user-attachments/assets/fc504399-d255-456b-905f-90b2baf8d57d)
 
 
+## Task Completion Time (TCT)
+
+Statistics for Task 1 CT :
+- Minimum: 15 
+- Maximum: 30 
+- Mean: 21.8 
+- Standard Deviation: 6.06
+
+Statistics for Task2 CT :
+- Minimum: 11 
+- Maximum: 23 
+- Mean: 14.2 
+Standard Deviation: 4.97 
+
+Statistics for Task3 CT :
+- Minimum: 7 
+- Maximum: 20 
+- Mean: 11 
+- Standard Deviation: 5.2
+
+
+![Boxplots of Task Completion Times](https://github.com/user-attachments/assets/3d75ecad-6ef0-4eaa-a264-f83822f1aa1c)
 
 
 
