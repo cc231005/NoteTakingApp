@@ -197,8 +197,8 @@ SUS Statistics:
 - Due to its simplicity, I had no difficulties with navigation.
 
 ## We made updates because of the following feedback
-Question: Were there any moments where you felt frustrated or stuck while using the platform?
-Answer: The lack of FocusManager. When I type something, I expect the keyboard to go away when I tap somewhere else on the screen.
+- Question: Were there any moments where you felt frustrated or stuck while using the platform?
+- Answer: The lack of FocusManager. When I type something, I expect the keyboard to go away when I tap somewhere else on the screen.
 
 This feedback was very helpful because it allowed us to add so basic functionality that we forgot to add on our own but thanks to the feedback we fixed that usability issue.
 
@@ -207,4 +207,4 @@ This feedback was very helpful because it allowed us to add so basic functionali
 You can download the updated version of the app with FocusManager at the top of this documentation.
 
 ## Conclusion
-Usability tests showed that app is straightforward and intuitive which leads to taks being completed very quickly. Users can navigate in the app easilty because for most people it's already familiar app and they know the placement and functionalities that that kind of apps are capable of.
+Usability tests showed that app is straightforward and intuitive which leads to tasks being completed very quickly. Users can navigate in the app easilty because for most people it's already familiar app and they know the placement and functionalities that that kind of apps are capable of. Quick task completion corellates with above mentioned experimental question - Are users able to efficiently create and update notes?
