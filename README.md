@@ -181,3 +181,11 @@ SUS Statistics:
 
 
 ![Boxplot of SUS Scores](https://github.com/user-attachments/assets/67e947c0-f79e-4185-b108-5fa4eb9022d1)
+
+
+## SUS Scores by Age
+![Scatterplot of SUS Scores by Age](https://github.com/user-attachments/assets/8ebf9746-2c89-4802-8bd2-441da55e75b2)
+
+
+## TCT by Age
+![Scatterplot of Task Completion Time by Age](https://github.com/user-attachments/assets/891764ce-d1f7-4a46-a633-a22412d63071)
