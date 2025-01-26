@@ -138,9 +138,9 @@ Users aim to:
 We collected our users for the study from among fellow students. Overall 5 people participated in the usability test.
 
 Age
-Mean: 22.2
-Min: 20  Max: 25
-Standard Deviation: 1.92
+- Mean: 22.2
+- Min: 20  Max: 25
+- Standard Deviation: 1.92
 
 ![Boxplot of Participant Age](https://github.com/user-attachments/assets/fc504399-d255-456b-905f-90b2baf8d57d)
 
