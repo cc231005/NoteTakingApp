@@ -132,6 +132,17 @@ Users aim to:
 3.	After completing the tasks, participants will fill out a SUS questionnaire and answer interview questions.
 
 
+# Usability Test Results
+
+## Sample Makeup
+We collected our users for the study from among fellow students. Overall 5 people participated in the usability test.
+
+Age
+Mean: 22.2
+Min: 20  Max: 25
+Standard Deviation: 1.92
+
+![Boxplot of Participant Age](https://github.com/user-attachments/assets/fc504399-d255-456b-905f-90b2baf8d57d)
 
 
 
